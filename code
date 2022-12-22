@@ -2,3 +2,7 @@ mc.playerController.windowClick(0, garbageItem, 0, 0, mc.player)
 mc.playerController.windowClick(0, -999, 0, 0, mc.player)
 holefill
 autobuild (flat)
+https://github.com/search?q=user%3ALogging4J+potion&type=code
+https://github.com/Logging4J/LugiHack-src-dump/blob/master/me/snow/luigihack/impl/modules/combat/AutoHoleFill.java
+PotionUtils.getPotionFromItem(AutoWeak.mc.player.inventory.getStackInSlot(i)).getRegistryName().getPath().contains("weakness")
+(PotionUtils.getPotionFromItem(itemStack).equals(PotionTypes.SWIFTNESS) || PotionUtils.getPotionFromItem(itemStack).equals(PotionTypes.LONG_SWIFTNESS) || PotionUtils.getPotionFromItem(itemStack).equals(PotionTypes.STRONG_SWIFTNESS)
