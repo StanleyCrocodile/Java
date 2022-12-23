@@ -3,9 +3,15 @@ mc.playerController.windowClick(0, -999, 0, 0, mc.player)
 holefill
 autobuild (flat)
 https://github.com/search?q=user%3ALogging4J+potion&type=code
-https://github.com/Logging4J/LugiHack-src-dump/blob/master/me/snow/luigihack/impl/modules/combat/AutoHoleFill.java
-PotionUtils.getPotionFromItem(AutoWeak.mc.player.inventory.getStackInSlot(i)).getRegistryName().getPath().contains("weakness")
-(PotionUtils.getPotionFromItem(itemStack).equals(PotionTypes.SWIFTNESS) || PotionUtils.getPotionFromItem(itemStack).equals(PotionTypes.LONG_SWIFTNESS) || PotionUtils.getPotionFromItem(itemStack).equals(PotionTypes.STRONG_SWIFTNESS)
-https://github.com/Logging4J/LugiHack-src-dump/blob/master/me/snow/luigihack/impl/modules/hidden/SpeedMineT.java
-https://github.com/Logging4J/LugiHack-src-dump/blob/master/me/snow/luigihack/impl/modules/misc/Portals.java
-https://github.com/Logging4J/LugiHack-src-dump/blob/master/me/snow/luigihack/impl/modules/player/Speedmine.java
+https://github.com/srgantmoomoo/postmanplusplus (autogap and holetp)
+https://github.com/srgantmoomoo/postman?
+https://github.com/srgantmoomoo/postmanplusplus/tree/main/src/main/java/me/srgantmoomoo/postman/client/module/modules/pvp
+https://github.com/4wl/Cute/blob/ec501d7d36a08efec3efc9bece4477f8194254cb/src/main/java/sb/love/module/combat/AntiDesync.java
+
+
+	private boolean canBreak(BlockPos pos) {
+		final IBlockState blockState = mc.world.getBlockState(pos);
+		final Block block = blockState.getBlock();
+
+		return block.getBlockHardness(blockState, mc.world, pos) != -1;
+	}
