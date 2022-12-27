@@ -2,3 +2,14 @@ mc.playerController.windowClick(0, garbageItem, 0, 0, mc.player)
 mc.playerController.windowClick(0, -999, 0, 0, mc.player)
 https://github.com/RealzPrestige/Pyro-1.4.1_deobf
 https://github.com/RealzPrestige/Pyro-1.4.1_deobf/blob/main/dev/nuker/pyro/deobfuscated/module/misc/MiddleClickPearl.java
+https://github.com/RealzPrestige/Pyro-1.4.1_deobf/blob/main/dev/nuker/pyro/deobfuscated/module/combat/BlinkDetect.java
+https://github.com/ionar2/summit/blob/master/src/main/java/com/salhack/summit/module/combat/BlinkDetect.java
+https://github.com/ionar2/summit/blob/master/src/main/java/com/salhack/summit/module/world/AutoBuilder.java
+    @EventHandler
+    private Listener<EventPlayerOnStoppedUsingItem> OnStopUsingItem = new Listener<>(event ->
+    {
+        if (isEating)
+        {
+            event.cancel();
+        }
+    });
