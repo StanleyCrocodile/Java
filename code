@@ -4,25 +4,20 @@ https://github.com/RealzPrestige/Pyro-1.4.1_deobf
 https://github.com/RealzPrestige/Pyro-1.4.1_deobf/blob/main/dev/nuker/pyro/deobfuscated/module/misc/MiddleClickPearl.java
 https://github.com/RealzPrestige/Pyro-1.4.1_deobf/blob/main/dev/nuker/pyro/deobfuscated/module/combat/BlinkDetect.java
 https://github.com/ionar2/summit/blob/master/src/main/java/com/salhack/summit/module/combat/BlinkDetect.java
-https://github.com/ionar2/summit/blob/master/src/main/java/com/salhack/summit/module/world/AutoBuilder.java
+https://github.com/Luna5ama/TrollHack/blob/master/src/main/kotlin/me/luna/trollhack/module/modules/combat/HoleSnap.kt
 
-    @EventHandler
-    private Listener<EventPlayerOnStoppedUsingItem> OnStopUsingItem = new Listener<>(event ->
-    {
-        if (isEating)
-        {
-            event.cancel();
+
+    private fun Entity.calcPredict(current: Vec3d): Vec3d {
+        return if (predictTicks == 0) {
+            current
+        } else {
+            Vec3d(
+                this.posX + (this.posX - this.lastTickPosX) * predictTicks,
+                this.posY + (this.posY - this.lastTickPosY) * predictTicks,
+                this.posZ + (this.posZ - this.lastTickPosZ) * predictTicks
+            )
         }
-    });
-    https://github.com/ionar2/summit/search?q=EventPlayerOnStoppedUsingItem
-    
-    @EventHandler
-    private Listener<EventPlayerIsHandActive> onIsHandActive = new Listener<>(event ->
-    {
-        // allow to mine while eating with offhand
-        if (mode.getValue().equals("Offhand"))
-        {
-            event.cancel();
-        }
-    });
-    https://github.com/ionar2/summit/search?q=EventPlayerIsHandActive
+    }
+https://github.com/AnotherNoName/Alice-1.0.1-SRC
+https://github.com/cocoapc911/LuigiHack-Leaked_by_cocoapc911
+https://github.com/3000IQPlay/LuigiHacks-deobf
