@@ -1,6 +1,3 @@
-mc.playerController.windowClick(0, garbageItem, 0, 0, mc.player)
-mc.playerController.windowClick(0, -999, 0, 0, mc.player)
-
 HashMap<EntityPlayer, renderBlock> list = new HashMap();
 
 List<EntityPlayer> playerList = mc.world.playerEntities;
