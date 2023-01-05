@@ -1,6 +1,6 @@
 HashMap<EntityPlayer, renderBlock> list = new HashMap();
 
-List<EntityPlayer> playerList = mc.world.playerEntities;
+List<EntityPlayer> playerList = playerEntities;
 for (EntityPlayer player : list.keySet()) {
     if (!playerList.contains(player)) 
         list.remove(player);
@@ -15,4 +15,21 @@ for (EntityPlayer player : playerList) {
 用string ?
 renderBlock {
     EntityPlayer player -> String playerName
+}
+
+class renderBlock {
+    private final BlockPos pos;
+    private final String name;
+    private float mineDamage
+    
+    void renderBlock(BlockPos pos, String name) {
+        this.pos = pos;
+        this.name = name;
+        this.mineDamage = 0;
+    }
+    
+    void render() {
+        mineDamage += getStrengh()
+        renderBox() 
+    }
 }
