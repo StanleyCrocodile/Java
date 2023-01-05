@@ -11,3 +11,5 @@ for (EntityPlayer player : playerList) {
         list.get(player).render();
     }
 }
+
+用string ?
