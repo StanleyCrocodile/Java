@@ -13,3 +13,6 @@ for (EntityPlayer player : playerList) {
 }
 
 用string ?
+renderBlock {
+    EntityPlayer player -> String playerName
+}
