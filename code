@@ -1,4 +1,2 @@
-https://discord.com/api/webhooks/1060885672451395655/ZQb1oQ3_YS0XGfZ1Y7m1BwarEIBmUWnPfyKwlJZZIiwypgjRn8oNLYBsq5pxh-H1793-
-https://discohook.org/
-
-https://github.com/Logging4J/LugiHack-src-dump/blob/master/me/snow/luigihack/impl/modules/misc/NoteBot.java
+https://github.com/chunfeng666/StayProPublic-WuShuang/blob/main/src/main/java/dev/cuican/staypro/module/modules/render/LowHPScreen.java
+fromHSB((((stop ? start : System.currentTimeMillis()) + incr * multiply) % (360 * 32)) / (360f * 32) * ranbowSpeed
