@@ -1,18 +1,6 @@
 https://github.com/chunfeng666/StayProPublic-WuShuang/blob/main/src/main/java/dev/cuican/staypro/module/modules/render/LowHPScreen.java
 fromHSB((((stop ? start : System.currentTimeMillis()) + incr * multiply) % (360 * 32)) / (360f * 32) * ranbowSpeed
 https://github.com/chunfeng666/StayProPublic-WuShuang/blob/main/src/main/java/dev/cuican/staypro/module/modules/combat/burrows.java
-https://github.com/chunfeng666/StayProPublic-WuShuang/tree/main/src/main/java/dev/cuican/staypro/notification
-
-
-            if(PlayerUtil.getDistance(pistonPos) < 3.6D
-                    && pistonPos.getY() > mypos.getY() + 1) continue;
-            if(BlockUtil.getBlock(targetPos.add(offset.getX() * -1 , 1 , offset.getZ() * -1))
-                        != Blocks.AIR) continue;
-                        
-        AutoPushPos bestPos = poses.stream()
-                .filter(p -> p.getMaxRange() <= range.getValue())
-                .min(Comparator.comparing(p -> p.getMaxRange())).orElse(null);
-                
     private static final double[] fourStep = {0.42,0.75,0.63,0.51,0.9,1.21,1.45,1.43,1.78,1.63,1.51,1.9,2.21,2.45,2.43,2.78,2.63,2.51,2.9,3.21,3.45,3.43};
     private static final double[] threeStep = {0.42,0.78,0.63,0.51,0.9,1.21,1.45,1.43,1.78,1.63,1.51,1.9,2.21,2.45,2.43};
     private static final double[] twoHalfStep={0.425,0.821,0.699,0.599,1.022,1.372,1.652,1.869,2.019,1.907};
@@ -21,19 +9,5 @@ https://github.com/chunfeng666/StayProPublic-WuShuang/tree/main/src/main/java/de
     private static final double[] oneStep = {0.41999998688698,0.7531999805212};
     private static final double[] halfStep={0.39,0.6938};
     
-    private final boolean canStep() {
-        if (MovementUtils.isMoving()) {
-            if (mc.player.onGround) return true;
-        }
-        if (!mc.player.isOnLadder()) return true;
-        if (!mc.player.isInWater()) return true;
-        if (mc.player.isInLava()) return false;
-        if (EntityUtil.isInWater(mc.player)) return false;
-        if (!mc.player.collidedHorizontally) return false;
-        if (!mc.player.collidedVertically) return false;
-        if (mc.player.movementInput.jump) return false;
-        if (!((double)mc.player.fallDistance < 0.1)) return false;
-        return true;
-    }
-holesnap centered check (if shouldDisable checkCentered return)
-stepTimer ?
+
+https://github.com/TechAle/gsplusplus/blob/main/src/main/java/com/gamesense/client/module/modules/render/zTrails.java
