@@ -1,6 +1,7 @@
 https://github.com/chunfeng666/StayProPublic-WuShuang/blob/main/src/main/java/dev/cuican/staypro/module/modules/render/LowHPScreen.java
 fromHSB((((stop ? start : System.currentTimeMillis()) + incr * multiply) % (360 * 32)) / (360f * 32) * ranbowSpeed
 https://github.com/chunfeng666/StayProPublic-WuShuang/blob/main/src/main/java/dev/cuican/staypro/module/modules/combat/burrows.java
+https://github.com/chunfeng666/StayProPublic-WuShuang/tree/main/src/main/java/dev/cuican/staypro/notification
 
 
             if(PlayerUtil.getDistance(pistonPos) < 3.6D
