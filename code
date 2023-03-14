@@ -12,3 +12,4 @@ https://github.com/chunfeng666/StayProPublic-WuShuang/blob/main/src/main/java/de
 
 https://github.com/TechAle/gsplusplus/blob/main/src/main/java/com/gamesense/client/module/modules/render/zTrails.java
 https://github.com/MOMIN5/gondal.club-1.0.5-SRC/blob/main/com/esoterik/client/mixin/mixins/MixinRenderEnderCrystal.java
+PlayerPacketManaget RenderEntityEvent?
